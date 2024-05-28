@@ -1,0 +1,52 @@
+@media only screen and (max-width: 767px) 
+{
+    .nav-base 
+    {
+        display: block;
+    }
+    .nav-base .circle-avatar 
+    {
+        display: none;
+    }
+    .fa-ul-1,
+    .fa-ul-2
+    {
+       padding-left: 15px;
+    }
+    .fa-ul-items
+    {
+        display: block;
+        border-right: none;
+       margin-left: 0px;
+       padding-left: 0px;
+       text-align: left;
+    }
+
+    .section-infor
+{
+    padding-left: 0px;
+    
+}
+
+    .web
+    {
+       border-bottom: 5px solid darkorange;
+    }
+    .jscrip
+    {
+        margin-top: 20px;
+    }
+    .web img,
+    .jscrip img,
+    .database img
+    {
+        max-width: 100%;
+        height: auto;
+      }
+      .contact i
+{
+    
+    width: 10%;
+    height: auto;
+}
+}

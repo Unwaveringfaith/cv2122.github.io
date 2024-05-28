@@ -1,0 +1,79 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) 
+{
+    .nav-base .circle-avatar 
+    {
+        display: none;
+    }
+
+    
+    .section
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        background-color: rgb(236, 231, 231);
+    }
+    .job-infor
+{
+    
+    align-content: center;
+}
+
+.expjob, .education, .activity, .hobbies, .languge, .skill
+{
+    display: grid; /*grid within grid*/
+    border: 1px solid rgb(192, 186, 186);
+   
+    grid-template-columns:2fr 1fr ;
+    grid-template-rows: 100px auto;
+    padding-top: 20px; /*can chinh cac item*/
+   
+}
+
+.job-infor  h2
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-left: 40px;
+}
+
+.expjob-content,
+.activity-content, 
+.education-content,
+.hobbies-content,
+.languge-content,
+.skill-content
+{
+   grid-column: span 2;/*cho content nay chiem 2 cot */
+}
+
+/*thay bang dau gach chan */
+.job-infor ul li
+{
+    list-style-type: none;
+    position: relative;
+    
+}
+
+.job-infor ul li::before
+{
+    content: "-";
+    color:darkorange ;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: -15px;
+    
+}
+.web img,
+.jscrip img,
+.database img
+{
+    max-width: 100%;
+    height: auto;
+  }
+  .certificate-border
+  {
+    display: none;
+  }
+}

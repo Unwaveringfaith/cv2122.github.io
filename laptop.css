@@ -1,0 +1,13 @@
+@media only screen and (min-width: 992px)
+{
+   
+    
+      
+    .web img,
+    .jscrip img,
+    .database img
+    {
+        max-width: 100%;
+        height: auto;
+    } 
+}

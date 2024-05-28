@@ -1,0 +1,108 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+    color:black;
+}
+
+body h2{
+    color: blue;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 2rem;
+}
+.mt-3 {
+    margin-top: 1rem !important;
+}
+.team{
+    padding-bottom: 4rem !important;
+}
+.team .fa-user-tie, .Goal .fa-flag-checkered {
+    margin-right: 0.5rem;
+}
+.team ul li, .Goal .Golas div p {
+    margin-left: 1.5rem;
+}
+.team ul, .Goal .Golas, .Scopes .d-flex, .timeline p {
+    padding-left: 1rem;
+}
+.Scopes h3, .Scopes p, .primary p {
+    padding: 0 1rem;
+}
+.primary {
+    padding-bottom: 9rem !important;
+}
+
+.timeline-entry {
+display: flex;
+align-items: center;
+margin-bottom: 1rem;
+}
+.timeline-entry .number-circle {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #6f42c1;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+margin-right: 0.5rem;
+}
+.timeline-entry .text-content {
+color: #000;
+}
+/* Responsives */
+/*mobile*/
+@media (max-width: 768px){
+    .d-flex
+    {
+        display: block !important ;
+    }
+
+}
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .container-fluid {
+        padding: 1rem; 
+    }
+    .timeline-entry .number-circle {
+       
+        background-color: #6f42c1;
+        color: #fff;
+    }
+    .Scopes{
+        padding-bottom: 3.5rem !important;
+    }
+}
+
+/* Laptop and desktop */
+@media (min-width: 992px) {
+    
+    .Goal-Scopes, .team-primary, .timeline {
+        
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .Goal{
+        padding-bottom: 5rem !important;
+    }
+    .timeline-entry .number-circle {
+      
+        background-color: #fff;
+        color: #6f42c1;
+        border: 2px solid #6f42c1;
+    }
+    .timeline{
+        padding-bottom: 2rem !important;
+    }
+}
